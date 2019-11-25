@@ -5,6 +5,16 @@ public class Animal {
 	private String nome;
 	
 	private String cor;
+	
+	private String especie;
+
+	public String getEspecie() {
+		return especie;
+	}
+
+	public void setEspecie(String especie) {
+		this.especie = especie;
+	}
 
 	public String getNome() {
 		return nome;
